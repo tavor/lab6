@@ -1,16 +1,16 @@
 shader_obj 5.0 1 0
 plainPointLight 21 2 12 4 8 0 3 3 0 3 14 1
-10 141
+10 154
 rgb
 current
 shader
-/home/mark/Desktop/lab6results/RenderMan/Intermediate
+/home/stu11/s19/mfg1071/Desktop/lab6results/RenderMan/Intermediate
 .:
 plainPointLight.sl
 light
 
-$meta_1605
-$meta___PRMAN_RELEASE__1605
+$meta_1502
+$meta___PRMAN_RELEASE__1502
 2
 1
 0
@@ -18,16 +18,16 @@ $meta___PRMAN_RELEASE__1605
 21
 $meta___PRMAN_RELEASE__ 6 2 -1 8 3 0 0 0 0 0 0
 $meta___PRMAN_RELEASE_TAG__ 6 2 -1 9 3 0 0 0 0 0 0
-$S38 6 2 -1 0 3 0 0 0 0 0 0
-$S40 6 2 -1 1 3 0 0 0 0 0 0
-$S43 6 2 -1 2 3 0 0 0 0 3 3
+$S37 6 2 -1 0 3 0 0 0 0 0 0
+$S39 6 2 -1 1 3 0 0 0 0 0 0
+$S42 6 2 -1 2 3 0 0 0 0 3 3
 $srcDir 6 2 -1 3 3 0 0 0 0 0 0
 $includePath 6 2 -1 4 3 0 0 0 0 0 0
-$S45 6 2 -1 5 3 0 0 0 0 1 8
-$C17 4 2 -1 0 3 0 0 0 0 1 2
-$C18 4 2 -1 1 3 0 0 6 7 3 7
-$S47 6 2 -1 6 3 0 0 4 4 0 0
-$S48 6 2 -1 7 3 0 0 8 8 0 0
+$S44 6 2 -1 5 3 0 0 0 0 1 8
+$C13 4 2 -1 0 3 0 0 0 0 1 2
+$C14 4 2 -1 1 3 0 0 6 7 3 7
+$S46 6 2 -1 6 3 0 0 4 4 0 0
+$S47 6 2 -1 7 3 0 0 8 8 0 0
 intensity 4 5 -1 12 3 1 1 1 1 5 7
 lightcolor 3 5 0 13 3 1 2 2 2 5 7
 from 2 5 1 14 3 1 3 3 3 5 7
@@ -49,8 +49,8 @@ $Cond0 10 11 -1 0 2 0 0 6 7 6 7
 _assign 	2 0  5 3 0
 _assign 	2 2  5 3 0
 _pointtransform 5 4  5 4 0
-_enterproc 	1 9  5 3 55
-_lightingstart 	3 10  5 6 56
-_illuminate 	5 13  5 6 56
-_scale		3 18  5 7 57
-_enterproc 	1 21  5 3 55
+_enterproc 	1 9  5 3 51
+_lightingstart 	3 10  5 6 52
+_illuminate 	5 13  5 6 52
+_scale		3 18  5 7 53
+_enterproc 	1 21  5 3 51
