@@ -1,36 +1,13 @@
-#include "noises.h"
-
-void
-smokedensity(	point Pcur; output color Lscatter; output float smokedensity)
-{
-	Lscatter = 0;
-	illuminance (Pcur)
-	{
-		extern color Cl;
-		float foglight = 1;
-		lightsource("__foglight", foglight);
-		if (foglight > 0)
-			Lscatter += Cl;
-	}
-}
-
 volume
-myfog(	float opacdensity = 1, lightdensity = 1;
-        float stepsize = 0.1;)
+myfog(	float smokedensity = 0.01, stepsize = 0.1;)
 {
     float len = length(I);
-    Pcur = P - I;
-	color Cv = 0, Ov = 0; /* color & opacity of volume that we accumulate */
-    
+	color Ov = 0, Cv = 0;
 
 	while (len > 0)
 	{
-		smokedensity(Pcur, smokedensity, Lscatter);
-        
-        Cv += (1 - Ovol) * stepsize * Lscatter;
-        Ov += (1 - Ovol) * stepsize * smokedensity;
-        
-        Pcur += stepsize * normalize(I);
+        Ov += (1 - Ov) * smokedensity;
+        Cv += (1 - Ov) * smokedensity;
 
         len -= stepsize;
 	}
