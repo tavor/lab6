@@ -1,16 +1,16 @@
 shader_obj 5.0 1 0
 plainPointLight 21 2 12 4 8 0 3 3 0 3 14 1
-10 134
+10 147
 rgb
 current
 shader
-/home/mark/Desktop/lab6results/RenderMan/Basic
+/home/stu11/s19/mfg1071/Desktop/lab6results/RenderMan/Basic
 .:
 plainPointLight.sl
 light
 
-$meta_1605
-$meta___PRMAN_RELEASE__1605
+$meta_1502
+$meta___PRMAN_RELEASE__1502
 2
 1
 0
@@ -24,8 +24,8 @@ $S16 6 2 -1 2 3 0 0 0 0 3 3
 $srcDir 6 2 -1 3 3 0 0 0 0 0 0
 $includePath 6 2 -1 4 3 0 0 0 0 0 0
 $S18 6 2 -1 5 3 0 0 0 0 1 8
-$C2 4 2 -1 0 3 0 0 0 0 1 2
-$C3 4 2 -1 1 3 0 0 6 7 3 7
+$C3 4 2 -1 0 3 0 0 0 0 1 2
+$C4 4 2 -1 1 3 0 0 6 7 3 7
 $S20 6 2 -1 6 3 0 0 4 4 0 0
 $S21 6 2 -1 7 3 0 0 8 8 0 0
 intensity 4 5 -1 12 3 1 1 1 1 5 7
@@ -35,7 +35,7 @@ $result_light 0 15 -1 0 3 0 0 0 0 0 0
 Cl 3 10 0 0 2 0 0 7 7 0 0
 light 14 8 -1 0 2 1 15 0 0 3 8
 $Code0 9 8 -1 0 2 0 0 0 0 6 7
-$T4 11 4 -1 0 2 0 0 6 7 6 7
+$T6 11 4 -1 0 2 0 0 6 7 6 7
 $Cond0 10 11 -1 0 2 0 0 6 7 6 7
 22
 12 8 
