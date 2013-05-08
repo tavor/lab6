@@ -29,7 +29,7 @@ AttributeBegin
   Scale 2 2 2 
   Color [ 1 1 .06 ]
   Surface "plastic"
-  Atmosphere "fog" "distance" 10 "background" [ 1 1 1 ]
+  Atmosphere "myfog" "distance" 10 "background" [ 1 1 1 ]
   Sphere 1 -1 1 360
 AttributeEnd
 
@@ -41,7 +41,7 @@ AttributeBegin
   Scale 2 2 2
   Color [ .5 0 0 ]
   Surface "plastic"
-  Atmosphere "fog" "distance" 10 "background" [ 1 1 1 ]
+  Atmosphere "myfog" "distance" 10 "background" [ 1 1 1 ]
   Sphere 1 -1 1 360
 AttributeEnd
 
@@ -53,7 +53,7 @@ AttributeBegin
   Scale 2 2 2 
   Color [ 0 .5 0 ]
   Surface "plastic"
-  Atmosphere "fog" "distance" 10 "background" [ 1 1 1 ]
+  Atmosphere "myfog" "distance" 10 "background" [ 1 1 1 ]
   Sphere 1 -1 1 360
 AttributeEnd
 
@@ -65,7 +65,7 @@ AttributeBegin
   Scale 2 2 2 
   Color [ 0 0 .5 ]
   Surface "plastic"
-  Atmosphere "fog" "distance" 10 "background" [ 1 1 1 ]
+  Atmosphere "myfog" "distance" 10 "background" [ 1 1 1 ]
   Sphere 1 -1 1 360
 AttributeEnd
 
