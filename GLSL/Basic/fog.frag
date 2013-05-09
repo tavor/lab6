@@ -1,3 +1,7 @@
+/* Created by Marko Galesic
+ * Referencing code from the book and slides
+ */
+
 uniform float fogDensity;
 uniform vec4 fogColor;
 uniform vec3 eye;

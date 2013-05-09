@@ -1,3 +1,7 @@
+/* Created by Marko Galesic
+ * Referencing code from the book and slides
+ */
+
 volume
 myfog(	float smokedensity = 0.01, stepsize = 0.1;)
 {

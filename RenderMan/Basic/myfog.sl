@@ -1,3 +1,7 @@
+/* Created by Marko Galesic
+ * Referencing (heavily) code from the book and slides
+ */
+
 // Distance fog shader
 volume
 myfog 	(	
